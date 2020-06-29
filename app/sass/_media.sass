@@ -21,7 +21,13 @@
   .second-section, .third-section
     padding: $gutter/2 0
 
-  
+  .third-section
+    pading: $gutter 0 30px
+    > div > div > div:last-of-type
+      .col-item
+        border-bottom: 0
+        padding-bottom: 0
+        margin-bottom: 0
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -43,6 +49,19 @@
   .item-news
     maring: $gutter/2 0 0
 
+  .col-item
+    margin-bottom: $gutter/2
+    margin-top: 0
+    padding-bottom: $gutter
+    border-bottom: 1px solid rgba(#fff, .5)
+    &-meta, h4
+      padding: 0 $gutter
+    a
+      img
+        margin-bottom: $gutter/2
+
+  .col-item-meta
+    margin-bottom: 5px
 
 // ≥576px
 +media-breakpoint-down(xs)
