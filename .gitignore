@@ -1,4 +1,4 @@
-/html/**/node_modules/
-/html/**/package-lock.json
-/html/**/Thumbs.db
-/html/**/*.DS_Store
+*/html/node_modules/*
+*/html/package-lock.json
+*/html/Thumbs.db
+*/html/*.DS_Store
