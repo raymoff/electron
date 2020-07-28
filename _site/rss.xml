@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>News about tech, gadgets, electronics and other information from IT industry</description>
+		<link>http://electron.raymoff.com</link>
+		<atom:link href="http://electron.raymoff.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Australians created the prototype of &quot;quantum internet&quot;</title>
+				<description><![CDATA[
+					<a href="http://electron.raymoff.com/blog/electronics/2020-07-25-australians-created-prototype-of-quantum-internet.html"><img width="100%" src="http://electron.raymoff.comimages/electronics/2020/2020-07-25-australians-created-prototype-of-quantum-internet/1.jpg"></a>
+					Australian scientists have learned to compose complex networks from individual quantum computers and have received a semblance of the quantum Internet
+					]]></description>
+				<pubDate>Sat, 25 Jul 2020 00:00:00 +0300</pubDate>
+				<link>http://electron.raymoff.com/blog/electronics/2020-07-25-australians-created-prototype-of-quantum-internet.html</link>
+				<guid isPermaLink="true">http://electron.raymoff.com/blog/electronics/2020-07-25-australians-created-prototype-of-quantum-internet.html</guid>
+			</item>
+		
+	</channel>
+</rss>
