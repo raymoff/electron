@@ -1,16 +1,18 @@
 <div class="col-md-4">
   <div class="pattern">
-    <div class="overlay item-title" style="background-image: url(img/blog/electronics/3.jpg)">
+    <div class="overlay item-title" style="background-image: url({{ post.thumb }})">
       <div class="item-title-content">
 
-        <h3><a href="#">Famous NY studio got two outstanding devices</a></h3>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
         <div class="item-social">
           <div class="item-comments" title="Number of comments">
-            <i class="fa fa-comments"></i><a href="#disqus_thread" class="item-comments-count">26</a>
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count">26</a>
           </div>
+
           <div class="fa fa-share-alt" title="Share in social media"></div>
-          <div class="likely likely-custom" data-url="path" data-media="img/blog/electronics/3.jpg" data-title="New smartphones conquered hearts of funs">
+
+          <div class="likely likely-custom" data-url="{{ site.url }}{{ post.url }}" data-media="{{ site.url }}/{{ post.image }}" data-title="{{ post.title }}">
             <div class="facebook" title="Share on Facebook">Facebook</div>
             <div class="twitter" title="Share on Twitter">Twitter</div>
             <div class="gplus" title="Share on Google+">Google+</div>
