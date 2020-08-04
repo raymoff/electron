@@ -4,54 +4,21 @@
 
       <div class="col-sm-12">
         <h2 class="type-one-header">
-          <a href="#">DIY</a>
+          <a href="blog/diy">DIY</a>
         </h2>
       </div>
 
       <div class="col-md-7">
-        <div class="type-one-first">
-          <a href="#" class="How to create beautiful lightning by bubbles">
-            <img src="img/blog/diy/1.jpg" alt="alt" class="img-responsive img-width">
-          </a>
-          <div class="item-social">
-            <div class="item-comments">
-              <i class="fa fa-comments"></i><a href="#disqus_thread" class="item-comments-count">26</a>
-              <span class="date">06/11/2019</span>
-            </div>
-          </div>
-          <h3><a href="#">How to create beautiful lightning by bubbles</a></h3>
-        </div>
+        {% for post in site.categories.diy limit: 1 offset: 0 %}
+        {% include /home-type-one-section-item-1.html %}
+        {% endfor %}
       </div>
 
       <div class="col-md-5 item-title-white">
 
-        <div class="pattern">
-          <div class="overlay item-title" style="background-image: url(img/blog/diy/2.jpg)">
-            <div class="item-title-content">
-              <h3><a href="#">Beautiful authentic letter A</a></h3>
-              <div class="item-social">
-                <div class="item-comments">
-                  <i class="fa fa-comments"></i><a href="#disqus_thread" class="item-comments-count">26</a>
-                  <span class="date">06/11/2019</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pattern">
-          <div class="overlay item-title" style="background-image: url(img/blog/diy/3.jpg)">
-            <div class="item-title-content">
-              <h3><a href="#">Self-made wooden propellers for drone</a></h3>
-              <div class="item-social">
-                <div class="item-comments">
-                  <i class="fa fa-comments"></i><a href="#disqus_thread" class="item-comments-count">26</a>
-                  <span class="date">06/11/2019</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% for post in site.categories.diy limit: 2 offset: 1 %}
+        {% include /home-type-one-section-item-2.html %}
+        {% endfor %}
 
       </div>
     </div>
