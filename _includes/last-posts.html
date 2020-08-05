@@ -1,0 +1,92 @@
+<div class="latest-box">
+  <div class="lb-header">Latest posts:</div>
+  <div class="lb-list">
+
+    <div class="lb-item">
+      <a href="blog/electronics/" class="lb-catname">Electronics</a>
+      <div class="lb-body">
+
+        {%- for post in site.categories.electronics limit: 1 offset: 0 -%}
+        <a href="{{ post.url }}" class="lb-item-header"> {{ post.title }} </a>
+        <div class="lb-footer">
+          <div class="item-comments" title="Number of comments">
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+            <span class="date">{{ post.date | date: '%d/%m/%Y' }}</span>
+          </div>
+        </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+
+    <div class="lb-item">
+      <a href="blog/it-news/" class="lb-catname">IT News</a>
+      <div class="lb-body">
+
+        {%- for post in site.categories.it-news limit: 1 offset: 0 -%}
+        <a href="{{ post.url }}" class="lb-item-header"> {{ post.title }} </a>
+        <div class="lb-footer">
+          <div class="item-comments" title="Number of comments">
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+            <span class="date">{{ post.date | date: '%d/%m/%Y' }}</span>
+          </div>
+        </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+
+
+    <div class="lb-item">
+      <a href="blog/reviews/" class="lb-catname">Reviews</a>
+      <div class="lb-body">
+
+        {%- for post in site.categories.reviews limit: 1 offset: 0 -%}
+        <a href="{{ post.url }}" class="lb-item-header"> {{ post.title }} </a>
+        <div class="lb-footer">
+          <div class="item-comments" title="Number of comments">
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+            <span class="date">{{ post.date | date: '%d/%m/%Y' }}</span>
+          </div>
+        </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+
+    <div class="lb-item">
+      <a href="blog/lifehacks/" class="lb-catname">Lifehacks</a>
+      <div class="lb-body">
+
+        {%- for post in site.categories.lifehacks limit: 1 offset: 0 -%}
+        <a href="{{ post.url }}" class="lb-item-header"> {{ post.title }} </a>
+        <div class="lb-footer">
+          <div class="item-comments" title="Number of comments">
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+            <span class="date">{{ post.date | date: '%d/%m/%Y' }}</span>
+          </div>
+        </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+
+    <div class="lb-item">
+      <a href="blog/diy/" class="lb-catname">DIY</a>
+      <div class="lb-body">
+
+        {%- for post in site.categories.diy limit: 1 offset: 0 -%}
+        <a href="{{ post.url }}" class="lb-item-header"> {{ post.title }} </a>
+        <div class="lb-footer">
+          <div class="item-comments" title="Number of comments">
+            <i class="fa fa-comments"></i><a href="{{ post.url }}#disqus_thread" class="item-comments-count"></a>
+            <span class="date">{{ post.date | date: '%d/%m/%Y' }}</span>
+          </div>
+        </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+
+  </div>
+</div>

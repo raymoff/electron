@@ -10,7 +10,7 @@ url: 'http://electron.raymoff.com' # the base hostname & protocol for your site,
 plugins: [jekyll-paginate-v2]
 category_dir: blog
 pagination:
-  enable: true
+  enabled: true
   per_page: 9
   title: ':title - Page :num'
   limit: 0
