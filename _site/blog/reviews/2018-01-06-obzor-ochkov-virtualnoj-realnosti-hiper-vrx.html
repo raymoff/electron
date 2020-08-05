@@ -176,7 +176,26 @@
               <li><a href="/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html">Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</a></li><li><a href="/blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html">Обзор материнской платы ASUS ROG MAXIMUS X APEX</a></li><li><a href="/blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html">Обзор материнской платы ASRock Fatal1ty Z370 Gaming-ITX/ac</a></li><li><a href="/blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html">Обзор корпуса Deepcool Genome ROG Certified Edition</a></li><li><a href="/blog/reviews/2018-01-08-obzor-myshi-genius-gx-scorpion-m6-600.html">Обзор мыши Genius GX Scorpion M6-600</a></li><li><a href="/blog/reviews/2018-01-07-obzor-igrovoj-myshi-thunderx3-tm50.html">Обзор игровой мыши ThunderX3 TM50</a></li></ul>
           </div>
 
-          <div class="comments">commentss</div>
+          <div class="comments"><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://electron-3.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
 
         </article>
 
@@ -251,7 +270,10 @@
 
   <div class="aside-box"><img src="img/vk-witget.jpg" alt="alt" class="img-responsive"></div>
 
-  <div class="aside-box">Latest comments</div>
+  <div class="aside-box"><div class="latest-comments">
+	<div class="lb-header">Последние комментарии:</div>
+	<script type="text/javascript" src="https://electron-3.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=0&amp;avatar_size=26&amp;excerpt_length=150"></script>
+</div></div>
 
 </aside></div>
 
@@ -288,6 +310,7 @@
 </footer>
 
 <script src="js/scripts.min.js"></script>
+<script id="dsq-count-scr" src="//electron-3.disqus.com/count.js" async></script>
 </body>
 
 </html>

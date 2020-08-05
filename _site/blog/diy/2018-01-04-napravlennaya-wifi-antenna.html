@@ -158,7 +158,26 @@
               <li><a href="/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html">Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</a></li><li><a href="/blog/diy/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64.html">Разработчик запустил Slack на Commodore 64</a></li><li><a href="/blog/diy/2018-01-08-lazernaya-gravirovka-i-3d-pechat-plastinok-iz-dereva.html">Лазерная гравировка и 3D-печать пластинок из дерева</a></li><li><a href="/blog/diy/2018-01-07-stilnyj-mediapleer-slice-iz-modulya-raspberry-pi.html">Стильный медиаплеер Slice из модуля Raspberry Pi</a></li><li><a href="/blog/diy/2018-01-06-kak-sdelat-internet-spidometr.html">Как сделать Интернет-спидометр на светодиодах и плате BeagleBone</a></li><li><a href="/blog/diy/2018-01-05-didzhejskij-pult-iz-kassetnogo-pleera.html">Как сделать диджейский пульт из кассетного плеера своими руками</a></li></ul>
           </div>
 
-          <div class="comments">commentss</div>
+          <div class="comments"><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://electron-3.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
 
         </article>
 
@@ -233,7 +252,10 @@
 
   <div class="aside-box"><img src="img/vk-witget.jpg" alt="alt" class="img-responsive"></div>
 
-  <div class="aside-box">Latest comments</div>
+  <div class="aside-box"><div class="latest-comments">
+	<div class="lb-header">Последние комментарии:</div>
+	<script type="text/javascript" src="https://electron-3.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=0&amp;avatar_size=26&amp;excerpt_length=150"></script>
+</div></div>
 
 </aside></div>
 
@@ -270,6 +292,7 @@
 </footer>
 
 <script src="js/scripts.min.js"></script>
+<script id="dsq-count-scr" src="//electron-3.disqus.com/count.js" async></script>
 </body>
 
 </html>

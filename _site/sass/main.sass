@@ -917,6 +917,46 @@ a.cat-list-item
     &::before
       opacity: .12
 
+
+.latest-comments
+  font-size: 14px
+  text-align: left
+  color: #333333
+  padding: 10px $gutter
+  border: 1px solid #eee
+  line-height: 1.45
+
+.ds-widget-list
+  margin: $gutter/2 0
+  padding: 0
+
+.dsq-widget-item
+  margin: $gutter/2 0
+  padding: $gutter/2 0
+  border-bottom: 1px solid #eee
+  position: relative
+  padding-left: 40px
+  p.dsq-widget-meta
+    position: relative
+    margin-top: 5px
+    font-size: 12px
+    &::before
+      content: ''
+      font-family: fontawesome
+      left: 0
+      color: $accent
+      margin-right: 5px
+  .dsq-widget-avatar
+    position: absolute
+    left: 0
+  &:last-child
+    border-bottom: none
+
+.dsk-widget-user
+  &::after
+    content: ':'
+
+
 // LIKELY ON PAGE
 .likely-on-page
     $likely-sz: 15px //Likely Font Size
@@ -1294,10 +1334,6 @@ a.cat-list-item
         margin-left: 2px
         opacity: .8
         padding: 1px 8px 1px 1px
-// LIKELY ON PAGE
-
-
-
-
+// END LIKELY ON PAGE
 
 @import "media" // Always at the end
